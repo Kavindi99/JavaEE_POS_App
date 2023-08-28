@@ -145,11 +145,12 @@
   $("#btnCusDelete").click(function(){
     let id = $("#txtCustomerID").val();
     $.ajax({
-      url:'http://localhost:8080/backEnd/pages/customer',
+      url:'http://localhost:8080/backEnd/pages/customer?cusID='+id,
       method:'delete',
-      data:JSON.stringify({
+     /* data:JSON.stringify({
         "id":id
-      }),
+      }),*/
+
       success:function (resp){
         alert(resp.message);
         getAllCustomers();

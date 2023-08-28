@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="back_end" />
+      <artifact name="backEnd" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82580a1e-c2da-494e-aa1e-83b9799a3b15" name="Changes" comment="" />
+    <list default="true" id="82580a1e-c2da-494e-aa1e-83b9799a3b15" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back_End/Back_End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Back_End/Back_End.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/servlet/CustomerServletAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/servlet/CustomerServletAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/servlet/ItemServletAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/servlet/ItemServletAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/servlet/PurchaseOrderServletAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/servlet/PurchaseOrderServletAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back_End/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/pages/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/pages/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front_End/pages/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front_End/pages/item.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,19 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IJSE/GDSE/2nd Sem/Advanced API Development/Assignments/JavaEE_POS_App/Back_End/src/lk/ijse/posApp/lib/mysql-connector-j-8.1.0.jar&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/IJSE/GDSE/2nd Sem/Advanced API Development/Assignments/JavaEE_POS_App/Back_End/src/lk/ijse/posApp/lib/mysql-connector-j-8.1.0.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IJSE\GDSE\2nd Sem\Advanced API Development\Assignments\JavaEE_POS_App\Back_End\src\lk\ijse\posApp\lib" />
@@ -59,19 +75,28 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.901" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.901" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="back_end">
+        <artifact name="backEnd">
           <settings>
-            <option name="CONTEXT_PATH" value="/back_end" />
+            <option name="CONTEXT_PATH" value="/backEnd" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="0b9d4734-a0e7-43a1-91cf-18a08019a9c4" />
-        <option name="HTTP_PORT" value="8085" />
-        <option name="JNDI_PORT" value="1095" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -145,6 +170,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="back_end" />
+          <artifact name="backEnd" />
         </option>
       </method>
     </configuration>
@@ -159,6 +185,10 @@
       <updated>1693192374347</updated>
       <workItem from="1693192375407" duration="3830000" />
       <workItem from="1693197753359" duration="1784000" />
+      <workItem from="1693201296128" duration="653000" />
+      <workItem from="1693237707930" duration="975000" />
+      <workItem from="1693239035805" duration="2022000" />
+      <workItem from="1693241744539" duration="7180000" />
     </task>
     <servers />
   </component>

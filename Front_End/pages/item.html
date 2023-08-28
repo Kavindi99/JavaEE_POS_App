@@ -163,12 +163,12 @@
   $("#btnItemDelete").click(function (){
     let code = $("#itemCode").val();
     $.ajax({
-      url: 'http://localhost:8080/backEnd/pages/item',
+      url: 'http://localhost:8080/backEnd/pages/item?itemCode='+code,
       contentType: "application/json",
       method: "delete",
-      data: JSON.stringify({
+     /* data: JSON.stringify({
         "code" : code
-      }),
+      }),*/
       success: function (res){
         alert(res.message);
         getAllItem();

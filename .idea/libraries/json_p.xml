@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="json-p">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/mysql-connector-j-8.1.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/json-p" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/Back_End/src/lk/ijse/posApp/lib/json-p" recursive="false" />
+  </library>
+</component>
