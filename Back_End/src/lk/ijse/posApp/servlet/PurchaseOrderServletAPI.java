@@ -19,6 +19,8 @@ import java.sql.*;
 
 @WebServlet(urlPatterns = "/pages/purchase-order")
 public class PurchaseOrderServletAPI extends HttpServlet {
+
+    //add order
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
